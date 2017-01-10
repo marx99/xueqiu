@@ -1,0 +1,16 @@
+﻿采集用户创建 的组合的ID:
+https://xueqiu.com/cubes/list.json?user_id=1464021971
+
+个股页面的讨论内容：
+https://xueqiu.com/statuses/search.json?count=10&comment=0&symbol=SZ300431&hl=0&source=all&sort=time&page=10
+
+查看用户粉丝
+https://xueqiu.com/friendships/followers.json?pageNo=0&uid=2299292436&size=20
+
+个股的粉丝：
+https://xueqiu.com/recommend/pofriends.json?type=1&code=SH600036&start=0&count=14&_=1467467254927
+
+count=14：单页显示用户数，默认14，最大可100
+
+
+另：组合的详细仓位没有找到相关json，现在想到的只能读取网站html源码进行采集了，速度慢一些。
